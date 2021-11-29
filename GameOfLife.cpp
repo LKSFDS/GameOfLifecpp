@@ -5,9 +5,9 @@ using namespace std;
 GameOfLife::GameOfLife(int n){
     boardRead.createMatrix(n);
     boardWrite.createMatrix(n);
-    boardRead.resurrectCell(2,1);
+    boardRead.resurrectCell(1,2);
     boardRead.resurrectCell(2,3);
-    //boardRead.resurrectCell(3,1);
+    boardRead.resurrectCell(3,1);
     boardRead.resurrectCell(3,2);
     boardRead.resurrectCell(3,3);
     /*boardRead.resurrectCell(12,31);

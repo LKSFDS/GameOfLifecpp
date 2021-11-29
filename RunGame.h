@@ -10,5 +10,5 @@ class RunGame{
         
     public:
         RunGame(int nThreads, GameOfLife gameoflife);
-        void run();
+        void run(Board boardRead, Board boardWrite);
 };
